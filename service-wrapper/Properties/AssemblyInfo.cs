@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ServiceWrapper")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Mono Service Wrapper")]
+[assembly: AssemblyDescription("A wrapper for C# console apps in Mono")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ServiceWrapper")]
+[assembly: AssemblyCompany("Playtomic")]
+[assembly: AssemblyProduct("")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -18,7 +18,7 @@ This is a mono-compatible utility for .NET console apps, it lets you run them as
 2.  cd mono-service-wrapper
 3.  put the right mongodb connection in the app.config
 4.  xbuild
-5.  launch with mono-service ./bin/Debug/msw.exe
+5.  launch with mono-service ./service-wrapper/bin/Debug/ServiceWrapper.exe
 
 ## What it doesn't do
 
@@ -26,4 +26,4 @@ This is very basic, it doesn't gracefully stop your services, it doesn't let you
 
 ### License
 
-Copyright Playtomic Inc, 2012.  Licensed under the MIT license.  Certain portions may come from 3rd parties and carry their own licensing terms and are referenced where applicable.
+Copyright [Playtomic Inc](https://playtomic.com), 2012.  Licensed under the MIT license.  Certain portions may come from 3rd parties and carry their own licensing terms and are referenced where applicable.
