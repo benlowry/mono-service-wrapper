@@ -6,7 +6,7 @@ This is a mono-compatible utility for .NET console apps, it lets you run them as
 
 1.  You'll need [MongoDB](http://mongodb.org) or similar to hold the service information.  You can just set up a freebie database at [MongoHQ](http://mongohq.com) if necessary.  Inside your database lives a single collection with one of these documents for each service:
 
-    { name: "servicename", path: "/path/to/the/project", restart: false }
+    { name: "servicename", path: "/path/to/the/project", restart: false }g
 
 2.  You'll need [Mono](http://mono-project.org) although there's no reason it won't work on Windows as well.
 
@@ -16,10 +16,9 @@ This is a mono-compatible utility for .NET console apps, it lets you run them as
 
 1.  git clone https://github.com/benlowry/mono-service-wrapper
 2.  cd mono-service-wrapper
-3.  create an app.config and add a mongodb connection
-4.  download the nuget package for mongodb
-5.  xbuild
-6.  mono-service ./bin/Debug/msw.exe
+3.  put the right mongodb connection in the app.config
+4.  xbuild
+5.  launch with mono-service ./bin/Debug/msw.exe
 
 ## What it doesn't do
 
