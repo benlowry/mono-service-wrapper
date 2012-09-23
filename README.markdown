@@ -9,7 +9,7 @@ This is a mono-compatible utility for .NET console apps, it lets you run them as
 {
     name: "servicename",
     path: "/path/to/the/service",
-	recompile: false
+	restart: false
 }
 
 2.  You'll need [Mono](http://mono-project.org) although there's no reason it won't work on Windows as well.
