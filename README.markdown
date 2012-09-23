@@ -2,7 +2,7 @@
 
 This is a mono-compatible utility for .NET console apps, it lets you run them as services and recompile and restart them when a new build is detected.  You can also add new services on the fly.
 
-##  Prerequesites
+##  Prerequisites
 
 1.  You'll need [MongoDB](http://mongodb.org) or similar to hold the service information.  You can just set up a freebie database at [MongoHQ](http://mongohq.com) if necessary.  Inside your database lives a single collection with one of these documents for each service:
 
