@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataStore.cs" />
     <Compile Include="ServiceThread.cs" />
     <Compile Include="Service.cs">
       <SubType>Component</SubType>
